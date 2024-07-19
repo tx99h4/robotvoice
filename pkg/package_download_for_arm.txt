@@ -1,0 +1,3 @@
+for ARM5TE in colibri module
+
+http://www.angstrom-distribution.org/feeds/2007/ipk/glibc/armv5te/base/

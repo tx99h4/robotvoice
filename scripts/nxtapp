@@ -1,0 +1,8 @@
+# launch HS password manager                                                    
+passkey-agent --default "0000" &                                                
+                                                                                
+# reset BT adapter                                                              
+hciconfig -a hci0 reset
+
+# launch NXT application
+/usr/local/bin/prg &

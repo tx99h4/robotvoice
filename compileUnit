@@ -1,0 +1,5 @@
+gcc -g -Wall btcomm.c -o btest -lbluetooth
+
+gcc -g -Wall rv.c -o rvm -I/home/computerman/Bureau/المشروع/src/devdep/include/pocketsphinx/ -I/home/computerman/Bureau/المشروع/src/devdep/include/sphinxbase/ -I/home/computerman/Bureau/المشروع/src/devdep/include/nxt/ -lpocketsphinx -lsphinxbase
+
+arm-linux-gnueabi-gcc -g -Wall btcomm.c -o xbt -lbluetooth; cp xbt /home/uzumaki/colibri/rootfs/home/root/
